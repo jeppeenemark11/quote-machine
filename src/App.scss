@@ -1,0 +1,62 @@
+.App {
+
+  
+  text-align: center;
+  #quote-box{
+    background-color: white;
+    border-radius: 10px;
+    color: rgb(203, 11, 11);
+    padding: 20px;
+margin: 20px;
+    #author{
+text-align: end;
+font-style: italic;
+    }
+  
+    #tweet-quote{
+      float: left;
+      background-color: rgb(203, 11, 11);
+      border-radius: 20px;
+      padding: 10px;
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      font-style: italic;
+    
+    }
+  
+    
+  #new-quote{
+    float: right;
+    padding: 10px;
+  }
+  button{
+    background-color: rgb(203, 11, 11);
+    color: white;
+    font-weight: 700;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  #text{
+    font-style: italic;
+  }
+  }
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+}
+
+
+
+
+
+
+
+
